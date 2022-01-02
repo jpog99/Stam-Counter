@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Pattern pattern = Pattern.compile(regex);
     Matcher matcher;
     String stam;
-    private static final String DBRequest_URL = "https://resin-counter.herokuapp.com/requestDB.php";
-    private static final String DBUpdate_URL = "https://resin-counter.herokuapp.com/insertRequest.php";
+    private static final String DBRequest_URL = "https://personalcounter-app.herokuapp.com/requestDB.php";
+    private static final String DBUpdate_URL = "https://personalcounter-app.herokuapp.com/insertRequest.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
